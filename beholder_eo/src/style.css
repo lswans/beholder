@@ -1,0 +1,48 @@
+body{
+
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+}
+#map{
+    max-height: 500px;
+    max-width: 700px;
+    color: rgba(255,255,255,0)
+}
+
+#mapContainer{
+    border: 5px solid black;
+    width: 600px;
+    height: 400px;
+}
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start !important;
+    align-items: start;
+    background-color: white;
+    height: 60px;
+    position: fixed;
+}
+
+.nav-buttons {
+    padding: 10px;
+    color: black;
+}
+
+
+.nav-buttons a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-buttons a:hover, a:active {
+    text-decoration: underline !important;
+    text-decoration-thickness: 5px;
+    color: #0B818C !important;
+}
